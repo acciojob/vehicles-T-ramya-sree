@@ -25,14 +25,14 @@ public class Vehicle {
         System.out.println("move method called - The speed is changed to: " + currentSpeed + ", and the direction is changed to: " + currentDirection + " degrees");
     }
 
-//    public void stop(){
-//          this.currentSpeed=0;
-//        System.out.println("stop method called - The vehicle is stopped");
-//    }
+    public void stop(){
+          this.currentSpeed=0;
+        System.out.println("stop method called - The vehicle is stopped");
+    }
 
-//    public static String getVehicleName() {
-//        return name;
-//    }
+    public String getVehicleName() {
+        return name;
+    }
     public int getCurrentSpeed(){
         return currentSpeed;
     }
